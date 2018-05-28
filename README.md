@@ -5,7 +5,7 @@ Meteor Package for easy Paypal payment processing.
 
 ### Usage
 ```console
-mrt add paypal
+sgm881 add paypal
 ```
 
 #### Setup
