@@ -10,6 +10,8 @@ Npm.depends({
 });
 
 Package.on_use(function(api) {
+	api.use('arunoda:npm');
+	api.use('templating');
 	api.add_files("paypal.js", ["client", "server"]);
 	api.add_files(["paypal_credit_card_form.html", "paypal_credit_card_form.js"], "client");
 	api.export("Paypal", ["client", "server"]);
